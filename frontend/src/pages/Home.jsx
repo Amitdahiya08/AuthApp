@@ -19,7 +19,7 @@ const Home = () => {
 
   const fetchProducts = async ()=>{
     try {
-        const url = "https://authapp-w0nt.onrender.com//products";
+        const url = "https://authapp-w0nt.onrender.com/products";
         const headers = {
           headers :{
             "Authorization" : localStorage.getItem("token")
