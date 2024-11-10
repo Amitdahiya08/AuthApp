@@ -15,7 +15,7 @@ const Signup = () => {
            }
            //  signup logic here
            try {
-                const url = "https://auth-app-api-eight.vercel.app/auth/signup";
+                const url = "https://authapp-w0nt.onrender.com/auth/signup";
                 const response = await fetch(url ,{
                   method: "POST",
                   headers : {
