@@ -71,7 +71,7 @@ const Login = () => {
             />
           </div>
           <button type='submit'>Login</button>
-          {/* <span>Already have an account? <Link to="/login">Login</Link></span> */}
+         <span>Dont't have an account? <Link to="/signup">Signup</Link></span> 
         </Form>
       </Formik>
       <ToastContainer />
